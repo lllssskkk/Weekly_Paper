@@ -1,3 +1,9 @@
+- date: "2025-11-26"
+  title: |
+    Concise, type-safe, and efficient structural diffing
+  link: https://dl.acm.org/doi/10.1145/3453483.3454052
+  authorship: |
+    Sebastian Erdweg, Tamás Szabó, André Pacak
 - date: "2025-11-28"
   title: |
     A Symmetric Set of Efficient List Operations
