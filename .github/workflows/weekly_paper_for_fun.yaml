@@ -61,8 +61,8 @@ jobs:
             **Authors:** ${{ env.authorship }}
             **Paper link:** [${{ env.link }}](${{ env.link }})
 
-          repository-id: "YOUR REPO ID HERE" # your repo
-          category-id: "YOUR CATEGORY ID HERE" # Functional Pearls category ID
+          repository-id: "1104646436" # your repo
+          category-id: "DIC_kwDOQdeRJM4CzEcg" # Functional Pearls category ID
 
       # Optional step to print discussion details
       - name: Print discussion URL and ID
