@@ -26,7 +26,7 @@ jobs:
       - name: Extract entry for today or next week
         id: extract
         run: |
-          FILE=".github/data/functional-pearls.yaml"
+          FILE=".github/workflows/files/functional-pearls.yaml"
 
           # Decide date based on trigger
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
