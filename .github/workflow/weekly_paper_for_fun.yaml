@@ -1,0 +1,71 @@
+name: Create Functional Pearl discussion weekly
+
+on:
+  schedule:
+    - cron: "0 12 * * 5" # 5 = Friday (12:00 UTC)
+  workflow_dispatch:
+
+jobs:
+  create-discussion:
+    runs-on: ubuntu-latest
+    permissions:
+      discussions: write
+      contents: read
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y jq
+          sudo wget -qO /usr/local/bin/yq https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64
+          sudo chmod +x /usr/local/bin/yq
+
+      - name: Extract entry for today
+        id: extract
+        run: |
+          FILE=".github/workflows/files/functional-pearls.yaml"
+          NEXTWEEK=$(date -d '+7 days' +'%Y-%m-%d')
+
+          # Convert the YAML list to JSON and select the matching date
+          ENTRY=$(yq -o=json "$FILE" | jq -c --arg d "$NEXTWEEK" '.[] | select(.date == $d)')
+
+          if [ -z "$ENTRY" ]; then
+            echo "No entry for $NEXTWEEK" >&2
+            exit 1
+          fi
+
+          title=$(echo "$ENTRY" | jq -r '.title')
+          link=$(echo "$ENTRY" | jq -r '.link')
+          authorship=$(echo "$ENTRY" | jq -r '.authorship')
+
+          echo "title=$title" >> $GITHUB_ENV
+          echo "link=$link" >> $GITHUB_ENV
+          echo "authorship=$authorship" >> $GITHUB_ENV
+          echo "date=$NEXTWEEK" >> $GITHUB_ENV
+
+      # Use the Create Discussion action
+      - name: Create a new GitHub Discussion
+        id: create-discussion
+        uses: abirismyname/create-discussion@v1.x
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          title: "Functional Pearl: ${{ env.date }}: ${{ env.title }}"
+          body: |
+            **This week's Functional Pearl**
+
+            **Title:** ${{ env.title }}
+            **Authors:** ${{ env.authorship }}
+            **Paper link:** [${{ env.link }}](${{ env.link }})
+
+          repository-id: "YOUR REPO ID HERE" # your repo
+          category-id: "YOUR CATEGORY ID HERE" # Functional Pearls category ID
+
+      # Optional step to print discussion details
+      - name: Print discussion URL and ID
+        run: |
+          echo "Discussion ID: ${{ steps.create-discussion.outputs.discussion-id }}"
+          echo "Discussion URL: ${{ steps.create-discussion.outputs.discussion-url }}"
