@@ -1,4 +1,4 @@
-name: Create Functional Pearl discussion weekly
+name: Create discussion weekly
 
 on:
   schedule:
@@ -53,9 +53,9 @@ jobs:
 
         with:
           github-token: ${{ secrets.TOKEN }}
-          title: "Functional Pearl: ${{ env.date }}: ${{ env.title }}"
+          title: "Paper Reading: ${{ env.date }}: ${{ env.title }}"
           body: |
-            **This week's Functional Pearl**
+            **This week's Paper Reading**
 
             **Title:** ${{ env.title }}
             **Authors:** ${{ env.authorship }}
