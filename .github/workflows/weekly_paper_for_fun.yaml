@@ -49,7 +49,7 @@ jobs:
       # Use the Create Discussion action
       - name: Create a new GitHub Discussion
         id: create-discussion
-        uses: abirismyname/create-discussion@v1.x
+        uses: abirismyname/create-discussion@main
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
@@ -65,7 +65,7 @@ jobs:
           category-id: "DIC_kwDOQdeRJM4CzEji" # Functional Pearls category ID
 
       # Optional step to print discussion details
-      # - name: Print discussion URL and ID
-      #   run: |
-      #     echo "Discussion ID: ${{ steps.create-discussion.outputs.discussion-id }}"
-      #     echo "Discussion URL: ${{ steps.create-discussion.outputs.discussion-url }}"
+      - name: Print discussion URL and ID
+        run: |
+          echo "Discussion ID: ${{ steps.create-discussion.outputs.discussion-id }}"
+          echo "Discussion URL: ${{ steps.create-discussion.outputs.discussion-url }}"
