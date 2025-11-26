@@ -23,28 +23,28 @@ jobs:
           sudo wget -qO /usr/local/bin/yq https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64
           sudo chmod +x /usr/local/bin/yq
 
-      - name: Extract entry for today
+      - name: Extract entry for today or next week
         id: extract
         run: |
-          FILE=".github/workflows/files/functional-pearls.yaml"
-          NEXTWEEK=$(date -d '+7 days' +'%Y-%m-%d')
+          FILE=".github/data/functional-pearls.yaml"
 
-          # Convert the YAML list to JSON and select the matching date
-          ENTRY=$(yq -o=json "$FILE" | jq -c --arg d "$NEXTWEEK" '.[] | select(.date == $d)')
+          # Decide date based on trigger
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            TARGET_DATE=$(date +'%Y-%m-%d')
+          else
+            TARGET_DATE=$(date -d '+7 days' +'%Y-%m-%d')
+          fi
 
+          ENTRY=$(yq -o=json "$FILE" | jq -c --arg d "$TARGET_DATE" '.[] | select(.date == $d)')
           if [ -z "$ENTRY" ]; then
-            echo "No entry for $NEXTWEEK" >&2
+            echo "No entry for $TARGET_DATE" >&2
             exit 1
           fi
 
-          title=$(echo "$ENTRY" | jq -r '.title')
-          link=$(echo "$ENTRY" | jq -r '.link')
-          authorship=$(echo "$ENTRY" | jq -r '.authorship')
-
-          echo "title=$title" >> $GITHUB_ENV
-          echo "link=$link" >> $GITHUB_ENV
-          echo "authorship=$authorship" >> $GITHUB_ENV
-          echo "date=$NEXTWEEK" >> $GITHUB_ENV
+          echo "date=$TARGET_DATE" >> $GITHUB_ENV
+          echo "title=$(echo "$ENTRY" | jq -r '.title')" >> $GITHUB_ENV
+          echo "link=$(echo "$ENTRY" | jq -r '.link')" >> $GITHUB_ENV
+          echo "authorship=$(echo "$ENTRY" | jq -r '.authorship')" >> $GITHUB_ENV
 
       # Use the Create Discussion action
       - name: Create a new GitHub Discussion
