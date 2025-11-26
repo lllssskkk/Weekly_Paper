@@ -65,7 +65,7 @@ jobs:
           category-id: "DIC_kwDOQdeRJM4CzEji" # Functional Pearls category ID
 
       # Optional step to print discussion details
-      - name: Print discussion URL and ID
-        run: |
-          echo "Discussion ID: ${{ steps.create-discussion.outputs.discussion-id }}"
-          echo "Discussion URL: ${{ steps.create-discussion.outputs.discussion-url }}"
+      # - name: Print discussion URL and ID
+      #   run: |
+      #     echo "Discussion ID: ${{ steps.create-discussion.outputs.discussion-id }}"
+      #     echo "Discussion URL: ${{ steps.create-discussion.outputs.discussion-url }}"
