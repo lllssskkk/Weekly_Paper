@@ -52,7 +52,7 @@ jobs:
         uses: abirismyname/create-discussion@main
 
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.TOKEN }}
           title: "Functional Pearl: ${{ env.date }}: ${{ env.title }}"
           body: |
             **This week's Functional Pearl**
