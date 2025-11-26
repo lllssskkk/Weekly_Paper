@@ -22,7 +22,19 @@ jobs:
           sudo apt-get install -y jq
           sudo wget -qO /usr/local/bin/yq https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64
           sudo chmod +x /usr/local/bin/yq
-
+      - name: Test GraphQL perms
+        run: |
+          gh api graphql -f query='
+            mutation($repo:ID!,$cat:ID!){
+              createDiscussion(input:{
+                repositoryId:$repo,
+                categoryId:$cat,
+                title:"Test",
+                body:"test"
+              }) { discussion { url } }
+            }' -f repo="R_kgDOQdeRJA" -f cat="DIC_kwDOQdeRJM4CzEji"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Create a new GitHub Discussion
         id: create-discussion
         uses: abirismyname/create-discussion@main
