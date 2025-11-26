@@ -1,723 +1,717 @@
-- date: "2025-11-26"
-  title: |
-    Concise, type-safe, and efficient structural diffing
-  link: https://dl.acm.org/doi/10.1145/3453483.3454052
-  authorship: |
-    Sebastian Erdweg, Tamás Szabó, André Pacak
 - date: "2025-11-28"
-  title: |
-    Nondeterminism with Referential Transparency in Functional Programming Languages
-  link: https://academic.oup.com/comjnl/article-pdf/31/3/243/1157325/310243.pdf
-  authorship: |
-    F. Warren Burton.
-- date: "2025-12-05"
-  title: |
-    On Removing Duplicates
-  link: https://www.cambridge.org/core/services/aop-cambridge-core/content/view/2CC831E0F77C77E86DD1E9AF165DECEE/S0956796800020074a.pdf/functional_pearls_on_removing_duplicates.pdf
-  authorship: |
-    Richard Bird.
-- date: "2025-12-12"
-  title: |
-    Two Greedy Algorithms
-  link: https://www.cambridge.org/core/services/aop-cambridge-core/content/view/E55EFDCCB071BBE9FFE0F6543C1BCBA1/S0956796800000368a.pdf/functional_pearls_two_greedy_algorithms.pdf
-  authorship: |
-    Richard Bird.
-- date: "2025-12-19"
   title: |
     A Symmetric Set of Efficient List Operations
   link: https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A77930CC2C68694EBB93964AF16D06D0/S0956796800000526a.pdf/functional_pearls_a_symmetric_set_of_efficient_list_operations.pdf
-- date: "2025-12-26"
+- date: "2025-12-05"
   title: |
     The Last Tail
   link: https://www.cambridge.org/core/services/aop-cambridge-core/content/view/CC6079CCEC88883F6C10DFB12908795F/S0956796800000630a.pdf/functional_pearls_the_last_tail.pdf
   authorship: |
     Richard Bird.
-- date: "2026-01-02"
+- date: "2025-12-12"
   title: |
     Efficient Sets - A Balancing Act
   link: http://groups.csail.mit.edu/mac/users/adams/BB/
   authorship:
-- date: "2026-01-09"
+- date: "2025-12-19"
   title: |
     On generating unique names
   link: https://www.cambridge.org/core/services/aop-cambridge-core/content/view/763DE73EB4761FDF681A613BE0E98443/S0956796800000988a.pdf/functional_pearl_on_generating_unique_names.pdf
   authorship: |
     Lennart Augustsson, Mikael Rittri and Dan Synek.
-- date: "2026-01-16"
+- date: "2025-12-26"
   title: |
     Deriving Tidy Drawings of Trees
   link: http://web.comlab.ox.ac.uk/people/Jeremy.Gibbons/publications/drawing.ps.gz
   authorship:
-- date: "2026-01-23"
+- date: "2026-01-02"
   title: |
     Drawing Trees
   link: http://dx.doi.org/10.1017/S0956796800001830
   authorship: |
     Andrew J. Kennedy.
-- date: "2026-01-30"
+- date: "2026-01-09"
   title: |
     Back to Basics: Deriving Representation Changers Functionally
   link: http://www.cs.nott.ac.uk/~gmh/basics.pdf
   authorship: |
     Graham Hutton and Erik Meijer.
-- date: "2026-02-06"
+- date: "2026-01-16"
   title: |
     The Third Homomorphism Theorem
   link: http://web.comlab.ox.ac.uk/people/Jeremy.Gibbons/publications/thirdht.ps.gz
   authorship: |
     Jeremy Gibbons.
-- date: "2026-02-13"
+- date: "2026-01-23"
   title: |
     Three algorithms on Braun trees
   link: https://web.archive.org/web/20120314024849/http://www.eecs.usma.edu/webs/people/okasaki/jfp97.ps
   authorship: |
     Chris Okasaki.
-- date: "2026-02-20"
+- date: "2026-01-30"
   title: |
     Lazy wheel sieves and spirals of primes
   link: https://web.archive.org/web/20131205122024/http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.55.7096&rep=rep1&type=pdf
   authorship: |
     Colin Runciman.
-- date: "2026-02-27"
+- date: "2026-02-06"
   title: |
     The Zipper
   link: http://www.st.cs.uni-saarland.de/edu/seminare/2005/advanced-fp/docs/huet-zipper.pdf
   authorship:
-- date: "2026-03-06"
+- date: "2026-02-13"
   title: |
     On building trees with minimum height
   link: https://www.cambridge.org/core/services/aop-cambridge-core/content/view/23D5C1B90A6B00A5D87239054FEDC8CF/S0956796897002803a.pdf/functional-pearl-on-building-trees-with-minimum-height.pdf
   authorship: |
     Richard Bird.
-- date: "2026-03-13"
+- date: "2026-02-20"
   title: |
     On merging and selection
   link: https://www.cambridge.org/core/services/aop-cambridge-core/content/view/DB0CF71E6B3D975D1F171C02336F3FA3/S0956796897002736a.pdf/functional-pearl-on-merging-and-selection.pdf
   authorship:
-- date: "2026-03-20"
+- date: "2026-02-27"
   title: |
     Meertens number
   link: https://www.cambridge.org/core/services/aop-cambridge-core/content/view/991084CDC1A348354224F893E2BD1D0C/S0956796897002931a.pdf/meertens_number.pdf
   authorship: |
     Richard Bird.
-- date: "2026-03-27"
+- date: "2026-03-06"
   title: |
     Even higher-order functions for parsing or Why would anyone ever want to use a sixth-order function?
   link: https://www.cambridge.org/core/journals/journal-of-functional-programming/article/even-higher-order-functions-for-parsing-or-why-would-anyone-ever-want-to-use-a-sixth-order-function/AAAA5C5E29889CEBC5E944CC1080FE8D
   authorship: |
     Chris Okasaki.
-- date: "2026-04-03"
+- date: "2026-03-13"
   title: |
     Diets for fat sets
   link: http://web.engr.oregonstate.edu/~erwig/papers/Diet_JFP98.pdf
   authorship: |
     Martin Erwig.
-- date: "2026-04-10"
+- date: "2026-03-20"
   title: |
     Polytypic unification
   link: https://www.cse.chalmers.se/~patrikj/poly/unify/PU.ps.gz
   authorship: |
     Patrik Jansson and Johan Jeuring.
-- date: "2026-04-17"
+- date: "2026-03-27"
   title: |
     Monadic parsing in Haskell
   link: http://www.cs.nott.ac.uk/~gmh/pearl.pdf
   authorship: |
     Graham Hutton and Erik Meijer.
-- date: "2026-04-24"
+- date: "2026-04-03"
   title: |
     A pointless derivation of radix sort
   link: http://web.comlab.ox.ac.uk/people/Jeremy.Gibbons/publications/radix.ps.gz
   authorship: |
     Jeremy Gibbons.
-- date: "2026-05-01"
+- date: "2026-04-10"
   title: |
     Proof-directed debugging
   link: http://www.cs.cmu.edu/~rwh/papers/regexp/jfp.ps
   authorship:
-- date: "2026-05-08"
+- date: "2026-04-17"
   title: |
     Red-black trees in a functional setting
   link: http://www.eecs.usma.edu/webs/people/okasaki/jfp99.ps
   authorship: |
     Chris Okasaki.
-- date: "2026-05-15"
+- date: "2026-04-24"
   title: |
     Power series and power serious
   link: http://www.cs.dartmouth.edu/~doug/pearl.ps.gz
   authorship: |
     M. Douglas McIlroy.
-- date: "2026-05-22"
+- date: "2026-05-01"
   title: |
     Explaining binomial heaps
   link: http://www.cs.ox.ac.uk/ralf.hinze/publications/BinomialHeaps/index.html
   authorship: |
     Ralf Hinze.
-- date: "2026-06-05"
+- date: "2026-05-08"
   title: |
     A poor man's concurrency monad
   link: https://web.archive.org/web/20140813125611/http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.39.8039&rep=rep1&type=pdf
   authorship: |
     Koen Claessen.
-- date: "2026-06-12"
+- date: "2026-05-15"
   title: |
     Composing contracts: an adventure in financial engineering
   link: https://web.archive.org/web/20130522225444/citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.34.493&rep=rep1&type=pdf
   authorship: |
     Simon Peyton Jones, Jean-Marc Eber and Julian Seward.
-- date: "2026-06-19"
+- date: "2026-05-22"
   title: |
     Recursive subtyping revealed
   link: http://www.cis.upenn.edu/~bcpierce/papers/rsr.ps
   authorship: |
     Vladimir Gapeyev, Michael Y. Levin and Benjamin C. Pierce.
-- date: "2026-06-26"
+- date: "2026-05-29"
   title: |
     Deriving Backtracking Monad Transformers
   link: http://www.cs.ox.ac.uk/ralf.hinze/publications/ICFP00.ps.gz
   authorship: |
     Ralf Hinze.
-- date: "2026-07-03"
+- date: "2026-06-05"
   title: |
     Breadth-First Numbering: Lessons from a Small Exercise in Algorithm Design
   link: https://web.archive.org/web/20120321020542/http://www.eecs.usma.edu/webs/people/okasaki/icfp00.ps
   authorship: |
     Chris Okasaki.
-- date: "2026-07-10"
+- date: "2026-06-12"
   title: |
     Combinators for breadth-first search
   link: https://www.cambridge.org/core/services/aop-cambridge-core/content/view/60383337C85657F3F6549C18F4E345BA/S0956796800003749a.pdf/div-class-title-combinators-for-breadth-first-search-div.pdf
   authorship: |
     Michael Spivey.
-- date: "2026-07-17"
+- date: "2026-06-19"
   title: |
     Perfect trees and bit-reversal permutations
   link: http://www.cs.ox.ac.uk/ralf.hinze/publications/BitReversal.ps.gz
   authorship: |
     and a revision of [Technical Report IAI-TR-99-4](http://www.cs.ox.ac.uk/ralf.hinze/publications/IAI-TR-99-4.ps.gz) - Ralf Hinze.
-- date: "2026-07-24"
+- date: "2026-06-26"
   title: |
     Red-black trees with types
   link: https://www.cambridge.org/core/services/aop-cambridge-core/content/view/632BDF7BE8CD1F6EAEDEA37E6046E4A1/S0956796801004026a.pdf/redblack_trees_with_types.pdf
   authorship: |
     Stefan Kahrs. ([code](http://www.cs.kent.ac.uk/people/staff/smk/redblack/rb.html).)
-- date: "2026-07-31"
+- date: "2026-07-03"
   title: |
     Do we need dependent types?
   link: http://www.brics.dk/RS/01/10/BRICS-RS-01-10.ps.gz
   authorship: |
     Daniel Fridlender and Mia Indrika.
-- date: "2026-08-07"
+- date: "2026-07-10"
   title: |
     Normalization by evaluation with typed abstract syntax
   link: http://www.brics.dk/RS/01/16/BRICS-RS-01-16.pdf
   authorship: |
     Olivier Danvy, Morten Rhiger and Kristoffer H. Rose.
-- date: "2026-08-14"
+- date: "2026-07-17"
   title: |
     Weaving a web
   link: http://www.cs.ox.ac.uk/ralf.hinze/publications/TheWeb.ps.gz
   authorship: |
     Ralf Hinze and Johan Jeuring.
-- date: "2026-08-21"
+- date: "2026-07-24"
   title: |
     Maximum marking problems
   link: http://dx.doi.org/10.1017/S0956796801004038
   authorship: |
     Richard Bird.
-- date: "2026-08-28"
+- date: "2026-07-31"
   title: |
     Unfolding pointer algorithms
   link: http://dx.doi.org/10.1017/S0956796801003914
   authorship: |
     Richard Bird.
-- date: "2026-09-04"
+- date: "2026-08-07"
   title: |
     Haskell does it with class: Functorial unparsing
   link: http://www.cs.nott.ac.uk/~gmh/wgp01/hinze-paper.pdf
   authorship: |
     Ralf Hinze.
-- date: "2026-09-11"
+- date: "2026-08-14"
   title: |
     Monads for Incremental Computing
   link: https://web.archive.org/web/20070417225413/http://www.cse.ogi.edu/PacSoft/publications/2002/icfp-2002.pdf
   authorship: |
     Magnus Carlsson.
-- date: "2026-09-18"
+- date: "2026-08-21"
   title: |
     Packrat parsing: simple, powerful, lazy, linear time and functional pearl
   link: http://pdos.csail.mit.edu/papers/packrat-parsing:icfp02.pdf
   authorship: |
     Bryan Ford.
-- date: "2026-09-25"
+- date: "2026-08-28"
   title: |
     The countdown problem
   link: http://www.cs.nott.ac.uk/~gmh/countdown.pdf
   authorship: |
     Graham Hutton.
-- date: "2026-10-02"
+- date: "2026-09-04"
   title: |
     A fresh look at binary search trees
   link: http://www.cs.ox.ac.uk/ralf.hinze/publications/SearchTree.ps.gz
   authorship: |
     Ralf Hinze.
-- date: "2026-10-09"
+- date: "2026-09-11"
   title: |
     Formatting: a class act
   link: http://www.cs.ox.ac.uk/ralf.hinze/publications/Format.ps.gz
   authorship: |
     Ralf Hinze.
-- date: "2026-10-16"
+- date: "2026-09-18"
   title: |
     Trouble shared is trouble halved
   link: http://www.cs.ox.ac.uk/ralf.hinze/publications/HW03.pdf
   authorship: |
     Richard Bird and Ralf Hinze.
-- date: "2026-10-23"
+- date: "2026-09-25"
   title: |
     Producing all ideals of a forest and functionally
   link: http://www.lri.fr/~filliatr/ftp/publis/kr-fp.ps.gz
   authorship: |
     Jean-Christophe Filliatre and Francois Pottier.
-- date: "2026-10-30"
+- date: "2026-10-02"
   title: |
     On tiling a chessboard
   link: https://www.cambridge.org/core/services/aop-cambridge-core/content/view/44A9D4F4D9AF0D8380D5E573E7E7F885/S095679680400512Xa.pdf/functional_pearl_on_tiling_a_chessboard.pdf
   authorship: |
     Richard Bird.
-- date: "2026-11-06"
+- date: "2026-10-09"
   title: |
     Linear lambda calculus and PTIME-completeness
   link: http://pages.cs.brandeis.edu/~mairson/Papers/jfp02.pdf
   authorship: |
     Harry G. Mairson.
-- date: "2026-11-13"
+- date: "2026-10-16"
   title: |
     Derivation of a logarithmic time carry lookahead addition circuit
   link: http://dx.doi.org/10.1017/S0956796804005180
   authorship: |
     John O'Donnell and Gudula Runger.
-- date: "2026-11-20"
+- date: "2026-10-23"
   title: |
     Parallel Parsing Processes
   link: http://www.cse.chalmers.se/edu/course/afp/Papers/parser-claessen.pdf
   authorship: |
     Koen Claessen.
-- date: "2026-11-27"
+- date: "2026-10-30"
   title: |
     Type-Safe Cast
   link: http://www.seas.upenn.edu/~sweirich/papers/cast/cast.pdf
   authorship: |
     Stephanie Weirich.
-- date: "2026-12-04"
+- date: "2026-11-06"
   title: |
     Functional chart parsing of context-free grammars
   link: http://dx.doi.org/10.1017/S0956796804005106
   authorship: |
     Peter Ljunglf.
-- date: "2026-12-11"
+- date: "2026-11-13"
   title: |
     Concurrent distinct choices
   link: http://web.cecs.pdx.edu/~antoy/homepage/publications/inject/paper.pdf
   authorship: |
     Sergio Antoy and Michael Hanus.
-- date: "2026-12-18"
+- date: "2026-11-20"
   title: |
     Parsing permutation phrases
   link: http://web.comlab.ox.ac.uk/people/Jeremy.Gibbons/wg21/meeting56/loeh-paper.pdf
   authorship: |
     Arthur Baars and Andres Loh and S. Doaitse Swierstra.
-- date: "2026-12-25"
+- date: "2026-11-27"
   title: |
     Inverting the Burrows Wheeler transform
   link: http://dx.doi.org/10.1017/S0956796804005118
   authorship: |
     Richard Bird and Shin-Cheng Mu. (also [here](http://web.comlab.ox.ac.uk/people/Richard.Bird/online/BirdMu2004Inverting.pdf).)
-- date: "2027-01-01"
+- date: "2026-12-04"
   title: |
     I am not a number -- I am a free variable
   link: http://portal.acm.org/ft_gateway.cfm?id=1017477&type=pdf&coll=&dl=ACM&CFID=15151515&CFTOKEN=6184618
   authorship: |
     Conor McBride and James McKinna.
-- date: "2027-01-08"
+- date: "2026-12-11"
   title: |
     Global variables in Haskell
   link: https://www.cambridge.org/core/services/aop-cambridge-core/content/view/37A6F7551C3A84120D658CE2D2C55E6E/S0956796802004471a.pdf/div-class-title-global-variables-in-haskell-div.pdf
   authorship: |
     John Hughes.
-- date: "2027-01-15"
+- date: "2026-12-18"
   title: |
     Implicit configurations--or and type classes reflect the values of types
   link: http://portal.acm.org/ft_gateway.cfm?id=1017481&type=pdf&coll=&dl=ACM&CFID=15151515&CFTOKEN=6184618
   authorship: |
     Oleg Kiselyov and Chung-chieh Shan.
-- date: "2027-01-22"
+- date: "2026-12-25"
   title: |
     Functional satisfaction
   link: http://pauillac.inria.fr/~maranget/enum/pearl.ps
   authorship: |
     Luc Maranget. ([more info](http://pauillac.inria.fr/~maranget/enum/index.html).)
-- date: "2027-01-29"
+- date: "2027-01-01"
   title: |
     Calculating the Sieve of Eratosthenes
   link: http://www.kestrel.edu/home/people/meertens/publications/papers/Calculating_the_Sieve_of_Eratosthenes.pdf
   authorship: |
     Lambert Meertens. ([slides](http://web.comlab.ox.ac.uk/people/Jeremy.Gibbons/wg21/meeting57/meertens-sieve.pdf).)
-- date: "2027-02-05"
+- date: "2027-01-08"
   title: |
     Enumerating the strings of regular languages
   link: http://www.cs.dartmouth.edu/~doug/nfa.ps.gz
   authorship: |
     M. Douglas McIlroy.
-- date: "2027-02-12"
+- date: "2027-01-15"
   title: |
     Composing fractals
   link: http://web.cecs.pdx.edu/~mpj/pubs/composing-fractals.pdf
   authorship: |
     Mark P. Jones.
-- date: "2027-02-19"
+- date: "2027-01-22"
   title: |
     Pickler Combinators
   link: http://dx.doi.org/10.1017/S0956796804005209
   authorship: |
     Andrew Kennedy.
-- date: "2027-02-26"
+- date: "2027-01-29"
   title: |
     Scrap your Nameplate
   link: http://homepages.inf.ed.ac.uk/jcheney/publications/cheney05icfp.pdf
   authorship: |
     James Cheney.
-- date: "2027-03-05"
+- date: "2027-02-05"
   title: |
     Backtracking, interleaving and and terminating monad transformers
   link: http://okmij.org/ftp/papers/LogicT.pdf
   authorship: |
     Oleg Kiselyov, Chung-chieh Shan, Daniel P. Friedman and Amr Sabry.
-- date: "2027-03-12"
+- date: "2027-02-12"
   title: |
     Finding celebrities: A lesson in functional programming
   link: https://www.cambridge.org/core/services/aop-cambridge-core/content/view/3E79673B3E7EA223532194DFBFF69569/S0956796805005678a.pdf/functional_pearls_finding_celebrities_a_lesson_in_functional_programming.pdf
   authorship: |
     Richard Bird and Sharon Curtis.
-- date: "2027-03-19"
+- date: "2027-02-19"
   title: |
     Strong Types for Relational Databases
   link: http://wiki.di.uminho.pt/twiki/pub/Personal/Xana/WebHome/report.pdf
   authorship: |
     Alexandra Silva and Joost Visser.
-- date: "2027-03-26"
+- date: "2027-02-26"
   title: |
     Marble mingling
   link: http://dx.doi.org/10.1017/S095679680300474X
   authorship: |
     Sharon Curtis.
-- date: "2027-04-02"
+- date: "2027-03-05"
   title: |
     Probabilistic functional programming in Haskell
   link: http://web.engr.oregonstate.edu/~erwig/papers/PFP_JFP06.pdf
   authorship: |
     Martin Erwig and Steve Kollmansberger.
-- date: "2027-04-09"
+- date: "2027-03-12"
   title: |
     A program to solve Sudoku
   link: http://www.cs.tufts.edu/~nr/cs257/archive/richard-bird/sudoku.pdf
   authorship:
-- date: "2027-04-16"
+- date: "2027-03-19"
   title: |
     Enumerating the rationals
   link: http://web.comlab.ox.ac.uk/people/Jeremy.Gibbons/publications/rationals.pdf
   authorship: |
     Jeremy Gibbons, David Lester and Richard Bird.
-- date: "2027-04-23"
+- date: "2027-03-26"
   title: |
     Applicative Programming with Effects
   link: http://www.soi.city.ac.uk/~ross/papers/Applicative.pdf
   authorship: |
     Conor McBride and Ross Paterson.
-- date: "2027-04-30"
+- date: "2027-04-02"
   title: |
     A type-correct, stack-safe and provably correct expression compiler in Epigram
   link: https://web.archive.org/web/20080418201807/http://www.dcs.st-and.ac.uk/~james/RESEARCH/Compiler_Pearl-submitted.pdf
   authorship: |
     James McKinna and Joel Wright.
-- date: "2027-05-07"
+- date: "2027-04-09"
   title: |
     Scrap Your Zippers
   link: https://www.cs.indiana.edu/~adamsmd/papers/scrap_your_zippers/ScrapYourZippers-2007.pdf
   authorship:
-- date: "2027-05-14"
+- date: "2027-04-16"
   title: |
     Functional Pearl: The Great Escape: Or how to jump the border without getting caught
   link: http://www.ccs.neu.edu/home/dherman/research/papers/icfp07-great-escape.pdf
   authorship: |
     David Herman.
-- date: "2027-05-21"
+- date: "2027-04-23"
   title: |
     Clowns to the Left of me and Jokers to the Right: Dissecting Data Structures
   link: http://strictlypositive.org/CJ.pdf
   authorship: |
     : Conor McBride.
-- date: "2027-05-28"
+- date: "2027-04-30"
   title: |
     Much Ado about Two: A Pearl on Parallel Prefix Computation
   link: http://dx.doi.org/10.1145/1328438.1328445
   authorship: |
     Janis Voigtländer.
-- date: "2027-06-04"
+- date: "2027-05-07"
   title: |
     Undoing Dynamic Typing
   link: https://nickbenton.name/newtrans.pdf
   authorship: |
     Nick Benton.
-- date: "2027-06-11"
+- date: "2027-05-14"
   title: |
     Generic Discrimination: Sorting and Partitioning Unshared Data in Linear Time
   link: http://dx.doi.org/10.1145/1411204.1411220
   authorship: |
     Fritz Henglein.
-- date: "2027-06-18"
+- date: "2027-05-21"
   title: |
     Functional Pearl: Streams and Unique Fixed Points
   link: http://www.cs.ox.ac.uk/ralf.hinze/publications/ICFP08.pdf
   authorship: |
     Ralf Hinze.
-- date: "2027-06-25"
+- date: "2027-05-28"
   title: |
     Functional Pearl: Data Types A La Carte
   link: https://web.archive.org/web/20160527131614/https://www.staff.science.uu.nl/~swier004/Publications/DataTypesALaCarte.pdf
   authorship: |
     Wouter Swierstra.
-- date: "2027-07-02"
+- date: "2027-06-04"
   title: |
     A Domain-Specific Language for Experimental Game Theory
   link: http://web.engr.oregonstate.edu/~walkiner/papers/jfp09-hagl.pdf
   authorship: |
     Eric Walkingshaw and Martin Erwig.
-- date: "2027-07-09"
+- date: "2027-06-11"
   title: |
     Bidirectionalization for Free!
   link: http://dx.doi.org/10.1145/1480881.1480904
   authorship: |
     Janis Voigtländer.
-- date: "2027-07-16"
+- date: "2027-06-18"
   title: |
     Linear, Bounded and Functional Pretty-Printing
   link: http://www.cs.kent.ac.uk/pubs/2009/2847/content.pdf
   authorship: |
     S. Doaitse Swierstra and Olaf Chitil.
-- date: "2027-07-23"
+- date: "2027-06-25"
   title: |
     Free Theorems Involving Type Constructor Classes
   link: http://dx.doi.org/10.1145/1596550.1596577
   authorship: |
     Janis Voigtländer.
-- date: "2027-07-30"
+- date: "2027-07-02"
   title: |
     A Play on Regular Expressions
   link: http://sebfisch.github.io/haskell-regexp/regexp-play.pdf
   authorship: |
     Sebastian Fischer. Frank Huch and Thomas Wilke.
-- date: "2027-08-06"
+- date: "2027-07-09"
   title: |
     Every Bit Counts
   link: https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/pearl.pdf
   authorship: |
     Dimitrios Vytiniotis and Andrew Kennedy.
-- date: "2027-08-13"
+- date: "2027-07-16"
   title: |
     Typed Quote/Antiquote - Or: Compile-time Parsing
   link: http://www.cs.ox.ac.uk/people/ralf.hinze/publications/Quote.pdf
   authorship: |
     Ralf Hinze.
-- date: "2027-08-20"
+- date: "2027-07-23"
   title: |
     Sorted. Verifying the Problem of the Dutch National Flag in Agda
   link: http://www.staff.science.uu.nl/~swier004/publications/2011-jfp.pdf
   authorship: |
     Wouter Swierstra.
-- date: "2027-08-27"
+- date: "2027-07-30"
   title: |
     The Hough transform
   link: http://dx.doi.org/10.1017/S0956796810000341
   authorship: |
     Maarten Fokkinga.
-- date: "2027-09-03"
+- date: "2027-08-06"
   title: |
     Monoids: Theme and Variations
   link: http://ozark.hendrix.edu/~yorgey/pub/monoid-pearl.pdf
   authorship: |
     Brent Yorgey.
-- date: "2027-09-10"
+- date: "2027-08-13"
   title: |
     When Maybe is not good enough
   link: http://www.cs.tufts.edu/~nr/cs257/archive/mike-spivey/maybe-not-enough.pdf
   authorship: |
     Michael Spivey.
-- date: "2027-09-17"
+- date: "2027-08-20"
   title: |
     Solving the Snake Cube Puzzle in Haskell
   link: http://web.cecs.pdx.edu/~mpj/snakecube/
   authorship: |
     Mark P. Jones.
-- date: "2027-09-24"
+- date: "2027-08-27"
   title: |
     Two Can Keep a Secret and If One of Them Uses Haskell
   link: http://www.cse.chalmers.se/~russo/publications_files/pearl-russo.pdf
   authorship: |
     Alejandro Russo.
-- date: "2027-10-01"
+- date: "2027-09-03"
   title: |
     A Smart View on Datatypes
   link: https://www.fceia.unr.edu.ar/~mauro/pubs/smartviews/smartviews.pdf
   authorship: |
     Mauro Jaskelioff and Exequiel Rivas.
-- date: "2027-10-08"
+- date: "2027-09-10"
   title: |
     All Sorts of Permutations
   link: https://www-ps.informatik.uni-kiel.de/~sad/icfp2016-preprint.pdf
   authorship: |
     Jan Christiansen, Nikita Danilenko and Sandra Dylus.
-- date: "2027-10-15"
+- date: "2027-09-17"
   title: |
     Free Delivery
   link: http://www.cs.ox.ac.uk/jeremy.gibbons/publications/delivery.pdf
   authorship: |
     Jeremy Gibbons.
-- date: "2027-10-22"
+- date: "2027-09-24"
   title: |
     Queueing and Glueing for Optimal Partitioning
   link: http://www.iis.sinica.edu.tw/~scm/pub/queueing-glueing.pdf
   authorship: |
     Shin-Cheng Mu, Yu-Hsi Chiang and Yu-Han Lyu.
-- date: "2027-10-29"
+- date: "2027-10-01"
   title: |
     Deriving a Probability Density Calculator
   link: http://homes.sice.indiana.edu/ccshan/rational/pearl.pdf
   authorship: |
     Wazim Mohammed Ismail and Chung-chieh Shan.
-- date: "2027-11-05"
+- date: "2027-10-08"
   title: |
     Ode on a Random Urn
   link: https://lemonidas.github.io/pdf/urns.pdf
   authorship: |
     Leonidas Lampropoulos, Antal Spector-Zabusky and Kenneth Foner.
-- date: "2027-11-12"
+- date: "2027-10-15"
   title: |
     Algebraic Graphs with Class
   link: https://eprint.ncl.ac.uk/file_store/production/239461/EF82F5FE-66E3-4F64-A1AC-A366D1961738.pdf
   authorship: |
     Andrey Mokhov.
-- date: "2027-11-19"
+- date: "2027-10-22"
   title: |
     A Pretty But Not Greedy Printer
   link: https://jyp.github.io/pdf/Prettiest.pdf
   authorship: |
     Jean-Philippe Bernardy.
-- date: "2027-11-26"
+- date: "2027-10-29"
   title: |
     What You Needa Know about Yoneda: Profunctor Optics and the Yoneda Lemma
   link: http://www.cs.ox.ac.uk/jeremy.gibbons/publications/proyo.pdf
   authorship: |
     Guillaume Boisseau and Jeremy Gibbons.
-- date: "2027-12-03"
+- date: "2027-11-05"
   title: |
     Type Your Matrices for Great Good: A Haskell Library of Typed Matrices and Applications
   link: https://doi.org/10.1145/3406088.3409019
   authorship: |
     Armando João Isaías Ferreira dos Santos, Jose Nuno Oliveira
-- date: "2027-12-10"
+- date: "2027-11-12"
   title: |
     Stitch: The Sound Type-Indexed Type Checker
   link: https://doi.org/10.1145/3406088.3409015
   authorship: |
     Richard A. Eisenberg
-- date: "2027-12-17"
+- date: "2027-11-19"
   title: |
     Finger Trees explained anew, and slightly simplified
   link: https://dl.acm.org/doi/10.1145/3406088.3409026
   authorship: |
     Koen Claessen.
-- date: "2027-12-24"
+- date: "2027-11-26"
   title: |
     A Graded Monad for Deadlock-Free Concurrency
   link: https://doi.org/10.1145/3406088.3409024
   authorship: |
     Andrej Ivašković, Alan Mycroft
-- date: "2027-12-31"
+- date: "2027-12-03"
   title: |
     The simple essence of algebraic subtyping: principal type inference with subtyping made easy
   link: https://dl.acm.org/doi/10.1145/3409006
   authorship: |
     Lionel Parreaux
-- date: "2028-01-07"
+- date: "2027-12-10"
   title: |
     Strong Functional Pearl: Harper's Regular-Expression Matcher in Cedille
   link: https://doi.org/10.1145/3409004
   authorship: |
     Aaron Stump, Chris Jenkins, Stephan Spahn, Colin McDonald
-- date: "2028-01-14"
+- date: "2027-12-17"
   title: |
     Separation Logic for Sequential Programs
   link: https://doi.org/10.1145/3408998
   authorship: |
     Arthur Charguéraud
-- date: "2028-01-21"
+- date: "2027-12-24"
   title: |
     Parsing with zippers
   link: https://doi.org/10.1145/3408990
   authorship: |
     Pierce Darragh, Michael D. Adams
-- date: "2028-01-28"
+- date: "2027-12-31"
   title: |
     Achieving high-performance the functional way
   link: https://dl.acm.org/doi/10.1145/3408974
   authorship: |
     Bastian Hagedorn, Johannes Lenfers, Thomas Kœhler, Xueying Qin, Sergei Gorlatch, Michel Steuwer.
-- date: "2028-02-04"
+- date: "2028-01-07"
   title: |
     Design Patterns for Parser Combinators
   link: https://doi.org/10.1145/3471874.3472984
   authorship: |
     Jamie Willis, Nicolas Wu.
-- date: "2028-02-11"
+- date: "2028-01-14"
   title: |
     It’s Easy As 1,2,3
   link: https://www.cs.nott.ac.uk/~pszgmh/123.pdf
   authorship: |
     Graham Hutton.
-- date: "2028-02-18"
+- date: "2028-01-21"
   title: |
     Beyond Relooper: Recursive Translation of Unstructured Control Flow to Structured Control Flow
   link: https://doi.org/10.1145/3547621
   authorship: |
     Norman Ramsey.
-- date: "2028-02-25"
+- date: "2028-01-28"
   title: |
     Monadic Compiler Calculation
   link: https://doi.org/10.1145/3547624
   authorship: |
     Patrick Bahr, Graham Hutton.
-- date: "2028-03-03"
+- date: "2028-02-04"
   title: |
     'do' Unchained: Embracing Local Imperativity in a Purely Functional Language
   link: https://doi.org/10.1145/3547640
   authorship: |
     Sebastian Ullrich, Leonardo de Moura.
-- date: "2028-03-10"
+- date: "2028-02-11"
   title: |
     HasChor: Functional Choreographic Programming for All
   link: https://doi.org/10.1145/3607849
   authorship: |
     Gan Shen, Shun Kashiwa, Lindsey Kuper.
-- date: "2028-03-17"
+- date: "2028-02-18"
   title: |
     More Fixpoints!
   link: https://doi.org/10.1145/3607853
   authorship: |
     Joachim Breitner.
-- date: "2028-03-24"
+- date: "2028-02-25"
   title: |
     Grokking the Sequent Calculus (pre-print)
   link: https://arxiv.org/abs/2406.14719
   authorship: |
     David Binder, Marco Tzschentke, Marius Müller, Klaus Ostermann.
+- date: "2028-03-03"
+  title: |
+    Nondeterminism with Referential Transparency in Functional Programming Languages
+  link: https://academic.oup.com/comjnl/article-pdf/31/3/243/1157325/310243.pdf
+  authorship: |
+    F. Warren Burton.
+- date: "2028-03-10"
+  title: |
+    On Removing Duplicates
+  link: https://www.cambridge.org/core/services/aop-cambridge-core/content/view/2CC831E0F77C77E86DD1E9AF165DECEE/S0956796800020074a.pdf/functional_pearls_on_removing_duplicates.pdf
+  authorship: |
+    Richard Bird.
+- date: "2028-03-17"
+  title: |
+    Two Greedy Algorithms
+  link: https://www.cambridge.org/core/services/aop-cambridge-core/content/view/E55EFDCCB071BBE9FFE0F6543C1BCBA1/S0956796800000368a.pdf/functional_pearls_two_greedy_algorithms.pdf
+  authorship: |
+    Richard Bird.
